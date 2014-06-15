@@ -5,10 +5,14 @@ var ui = require('../lib/ui-exports'),
 
 module.exports = {
   "mocha-ui-exports/lib/ui-exports" : {
-    "special attribute: beforeAll should attach beforeAll  handler" : testHandlerAttributeFactory("beforeAll", "beforeAll" ),
-    "special attribute: before    should attach beforeEach handler" : testHandlerAttributeFactory("before", "beforeEach" ),
-    "special attribute: after     should attach afterEach  handler" : testHandlerAttributeFactory("after", "afterEach" ),
-    "special attribute: afterAll  should attach afterAll   handler" : testHandlerAttributeFactory("afterAll", "afterAll" ),
+    "special attribute: beforeAll  should attach beforeAll  handler" : testHandlerAttributeFactory("beforeAll" , "beforeAll"  ),
+    "special attribute: setup      should attach beforeAll  handler" : testHandlerAttributeFactory("setup"     , "beforeAll"  ),
+    "special attribute: before     should attach beforeEach handler" : testHandlerAttributeFactory("before"    , "beforeEach" ),
+    "special attribute: beforeEach should attach beforeEach handler" : testHandlerAttributeFactory("beforeEach", "beforeEach" ),
+    "special attribute: after      should attach afterEach  handler" : testHandlerAttributeFactory("after"     , "afterEach"  ),
+    "special attribute: afterEach  should attach afterEach  handler" : testHandlerAttributeFactory("afterEach" , "afterEach"  ),
+    "special attribute: afterAll   should attach afterAll   handler" : testHandlerAttributeFactory("afterAll"  , "afterAll"   ),
+    "special attribute: teardown   should attach afterAll   handler" : testHandlerAttributeFactory("teardown"  , "afterAll"   ),
     "special attribute: pend should mark the suite pending" : testPendingSuite("pend", true),
     "special attribute: skip should mark the suite pending" : testPendingSuite("skip", true),
     "special attribute: timeout" : {
