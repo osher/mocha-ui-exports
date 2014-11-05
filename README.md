@@ -1,4 +1,4 @@
-mocha-ui-exports 
+mocha-ui-exports [![Build Status](https://secure.travis-ci.org/osher/mocha-ui-exports.png?branch=master)](http://travis-ci.org/osher/mocha-ui-exports)
 ===
 
 A export-style UI for mocha. One that ***Rocks!***
@@ -98,11 +98,19 @@ Don't be afraid of the code.
 
 Here : [./test/how-to-use](https://github.com/osher/mocha-ui-exports/tree/master/test/how-to-use)
 
+
 And I have to ask your pardon - most of the references are more clear by reading the code, but some are clearer by reading the outpot of the `spec` reporter.
 So you should read both.
+
+```
+mocha test/how-to-use
+```
+
+like, duh...? ;)
+
 
 Lisence
 ---
 MIT
 
-Have fun
+Have fun, really.
