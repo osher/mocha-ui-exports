@@ -29,5 +29,8 @@
   "devDependencies": {
     "mocha": "*"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com/"
+  }
 }
