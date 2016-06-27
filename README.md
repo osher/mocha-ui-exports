@@ -112,6 +112,7 @@ Change Notes
 ------------
 ### 1.1.0
  - does not support node 0.8 because the way `should` grew :(
+   techincally it works, but I don't have a way to test that without messing with the `package.json` just for this env.
  
 ### 1.0.0 and 1.0.1 
  - let the user decide what verison of should to use (peer-dependency)
