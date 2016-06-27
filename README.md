@@ -108,6 +108,19 @@ mocha test/how-to-use
 
 like, duh...? ;)
 
+Change Notes
+------------
+### 1.1.0
+ - does not support node 0.8 because the way `should` grew :(
+ 
+### 1.0.0 and 1.0.1 
+ - let the user decide what verison of should to use (peer-dependency)
+ - this versions were published in mistake, despite the fact that the build on node 0.8 failed
+
+### versions prior to 1.x
+- worked, used should < 0.6, tested on node 0.8 and node 0.10
+
+
 
 Lisence
 ---

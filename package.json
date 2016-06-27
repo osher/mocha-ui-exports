@@ -1,6 +1,6 @@
 {
   "name": "mocha-ui-exports",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Yet another ui exports for mocha, but one that rocks!",
   "main": "./lib/ui-exports",
   "directories": {
