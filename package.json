@@ -27,7 +27,8 @@
     "should": "*"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "should": "*"
   },
   "license": "MIT",
   "publishConfig": {
